@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    /* margin: 20px 20px 0; */
+    background:  #77b8bff2;
+}
+.download{
+    color: rgb(19, 51, 68);
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    font-size: 18px;
+    column-gap: 100px;
+}
+.download img{
+margin: auto;    width:800px;
+    height:400px;
+}
+.download h1{
+    margin-top: 100px;
+    font-size: 60px;
+}
+.download p{
+    margin-top: 20px;
+    text-align: left;
+}
+.btn{
+    display: inline;
+    align-items: center;
+    text-align: center;
+;
+}
+ button{
+    margin: 40PX 30px;
+    color: #f7f6f6f2;
+    background-color:rgb(19, 51, 68); 
+    text-align: center;
+    font-size: 30px;
+    padding: 10px 20px;
+    border-radius:50px ;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(121, 206, 249);
+    color: #000000;
+}
+ 
